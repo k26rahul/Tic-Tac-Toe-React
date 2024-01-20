@@ -12,10 +12,9 @@
 
 body {
   margin: 0;
+  display: grid;
+  place-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-}
-
-@media (prefers-color-scheme: light) {
 }
