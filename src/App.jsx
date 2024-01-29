@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <h1>Tic-Tac-Toe-React 👋</h1>
+      <h1>Tic-Tac-Toe-React</h1>
       <GameGrid
         board={gameState.board}
         handleCellClick={cellId => {

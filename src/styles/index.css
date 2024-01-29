@@ -1,13 +1,14 @@
 :root {
-  color-scheme: light dark;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --body-bg-color: #607d8b;
 }
 
 * {
   box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
@@ -15,6 +16,5 @@ body {
   display: grid;
   place-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--body-bg-color);
 }
