@@ -1,0 +1,48 @@
+:root {
+  --color-accent: #00897b;
+  --color-accent-bg: aquamarine;
+  --color-body-bg: #caffed;
+}
+
+.vertical-stack,
+.horizontal-stack {
+  --stack-margin: 1em;
+}
+
+.vertical-stack > * + * {
+  margin-top: var(--stack-margin);
+}
+
+.horizontal-stack > * + * {
+  margin-left: var(--stack-margin);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+body,
+html,
+main {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-body-bg);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  user-select: none;
+  border: none;
+  cursor: pointer;
+}
+
+.app-screen {
+  height: 100%;
+  display: grid;
+  place-content: center;
+}

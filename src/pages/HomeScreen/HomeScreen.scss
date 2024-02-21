@@ -1,0 +1,22 @@
+.app-screen h1 {
+  text-align: center;
+}
+
+.btn {
+  padding: 0.5em 1em;
+  border: 2px solid black;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
+  color: inherit;
+  transition: all;
+  transition-duration: 0.1s;
+
+  &:hover {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    color: white;
+    box-shadow: rgba(50, 150, 75, 0.5) 0px 12px 36px 0px;
+  }
+}
